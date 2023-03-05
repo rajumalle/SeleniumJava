@@ -1,0 +1,9 @@
+Install Team City:
+
+Download Team city for Mac OSX
+Open Terminal-> cd /Users/rajumalle/Downloads/TeamCity/bin
+sh runAll.sh start
+Create new project in Teamcity by providing repor URL and other details
+Use maven command to run test case : mvn clean test -DsuiteXmlFile=testng.xml
+Set M2_HOME path to : /Users/rajumalle/.m2/repository
+/Users/rajumalle/Downloads/apache-maven-3.8.6

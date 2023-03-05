@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Tests Suite"  thread-count="1">
+
+        <listeners>
+            <listener class-name="utilities.TestListener"/>
+        </listeners>
+
+        <parameter name = "Browser" value="local-web-chrome"/>
+
+        <test name="Jupiter Testcase1" >
+            <classes>
+                <class name="JupiterTests.Testcase1"/>
+            </classes>
+        </test>
+
+        <test name="Jupiter Testcase2" >
+            <classes>
+                <class name="JupiterTests.Testcase2"/>
+            </classes>
+        </test>
+
+        <test name="Jupiter Testcase3" >
+            <classes>
+                <class name="JupiterTests.Testcase3"/>
+            </classes>
+        </test>
+
+        <test name="Jupiter Testcase4" >
+            <classes>
+                <class name="JupiterTests.Testcase4"/>
+            </classes>
+        </test>
+
+</suite>
